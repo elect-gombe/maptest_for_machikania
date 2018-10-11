@@ -25,7 +25,7 @@ OBJ = 	$(addprefix $(OBJDIR)/, $(notdir $(C_SRC:.c=.o)))\
 
 #LINKER_FILE = p32MX270F256B.ld
 #LINKER_FILE = App-on-bootloader-170F.ld
-LINKER_FILE = p32MX370F512H.ld
+LINKER_FILE = app_p32MX370F512H.ld
 
 LINKER_SCRIPT = $(LINKER_FILE)
 
